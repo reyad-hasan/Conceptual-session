@@ -1,0 +1,32 @@
+*{
+    /* margin: 0; */
+}
+.practice5{
+    height: 320px;
+    width: 500px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 6px 2px 6px black;
+    color: white;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.btn{
+    border-radius: 5px solid none;
+    padding: 10px 5px;
+    color: black;
+    cursor: pointer;
+}
+.practice5, .btn{
+    text-align: center;
+}
+div.practice5{
+    display: inline-block;
+    background-color: purple;
+}

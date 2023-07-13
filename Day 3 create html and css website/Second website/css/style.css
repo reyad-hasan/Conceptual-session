@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    background-color: rgb(46, 45, 45);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 5px 0px;
+}
+.logo-img{
+    height: 40px;
+}
+.manu-item{
+    display: flex;
+}
+.item{
+    list-style: none;
+    margin-left: 25px;
+    font-size: 25px;font-weight: 500;
+    cursor: pointer;
+}
+.item:hover{
+    color: blueviolet;
+}
+/*main section strat frome here*/
+.main-container{
+    background-image: url("/images/background.png"), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo{
+    height: 400px;
+}
+.title-h1{
+    font-size: 55px;
+}
+.main-discreption{
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 16px 20px;
+    font-size: 17px;
+}
+/*About us section start from here*/
+.about-container{
+    padding: 50px;
+}
+.about-h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.about-main-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.about-photo{
+    height: 350px;
+}
+.section-2-h3{
+    font-size: 27px;
+}
+.section-2-p{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+/*Our servie's start from here*/
+.services-container{
+    background-image: url('/images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 55px;
+    flex-wrap: wrap;
+}
+.main-services{
+    display: flex;
+    justify-content: space-around;
+}
+.services-section{
+    background-color: black, rgb(05, 88, 31);
+    height: 320px;
+    width: 230px;
+    box-shadow:  0px 5px 30px white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.icon{
+    height: 100px;
+}
+.hedding1{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.details1{
+    font-size: 18px;
+}
+.btn1{
+    background-color: rgb(39, 37, 33);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 17px;
+}
+/* footer section start from here */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70vh;
+    line-height: 1.8em;
+}
+.footer-container{
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width: 170px;
+}
+.copy{
+    text-align: center;
+    padding: 25px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}

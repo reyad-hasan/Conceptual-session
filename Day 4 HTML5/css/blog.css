@@ -1,0 +1,16 @@
+nav > ul > li{
+    display: inline;
+    margin-right: 15px;
+}
+nav li > a{
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav li > a:hover{
+    color: green;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}

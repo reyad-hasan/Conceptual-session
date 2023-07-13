@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 14px;
+            font-size: 20px;
+        }
+        caption{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="from.html">Form</a></li>
+            <li><a href="table.html">Tabel</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="main">
+        <table>
+            <h1>Employee Salary Sheet</h1>
+            <caption>Salary sheet</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Hasan</td>
+                    <td>Founder of facebook</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Marckjcberg</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Marckjcberg</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Marckjcberg</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="text-align: center; font-size: 25px;">Total Salary</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
